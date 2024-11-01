@@ -1,0 +1,6 @@
+[submodule "pixi-react"]
+	path = pixi-react
+	url = git@github.com:ricsam/pixi-react.git
+[submodule "pixi-viewport"]
+	path = pixi-viewport
+	url = git@github.com:ricsam/pixi-viewport.git
