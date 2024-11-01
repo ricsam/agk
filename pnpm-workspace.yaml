@@ -1,5 +1,5 @@
 packages:
-  - 'pixi'
-  - 'website'
-  - 'pixi-react'
-  - 'pixi-viewport'
+  - "pixi"
+  - "website"
+  - "pixi-react"
+  - "pixi-viewport"

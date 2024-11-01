@@ -1,8 +1,8 @@
 /// <reference types="vite/client" />
 
-import type { PixiReactElementProps } from '@pixi/react'
+import type { PixiReactElementProps } from "@pixi/react";
 import type { Layout } from "@pixi/layout";
-import type { Viewport } from 'pixi-viewport'
+import type { Viewport } from "pixi-viewport";
 
 declare global {
   namespace JSX {

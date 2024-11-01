@@ -135,7 +135,7 @@ function Canvas() {
     });
 
     return () => {
-      console.log('??');
+      console.log("??");
       viewport.destroy();
       viewport.options.events.domElement.removeEventListener("wheel", onWheel);
     };
