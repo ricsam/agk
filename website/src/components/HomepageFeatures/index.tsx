@@ -4,7 +4,25 @@ import styles from "./styles.module.css";
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <SequenceViewer sequence="TCCTCGCATAGGGCGGATCGGTATTCATGGGACGCCACACAACTCTTAGATTGATTGTCGCTTTCAGGCGTGTCATCCTGCGCCCCGGCACGAGCTCGTCCGGCGGTATAGTCGTATGTGCTTATACACATCAAAGCTAACAAATCTTTCTGCGGGCGGTCGTCACGACACACGTTCTTACG" />
+      <SequenceViewer
+        sequences={[
+          {
+            type: "dna",
+            defaultLayout: "circular",
+            title: "Some sequences",
+            sequence:
+              "TCCTCGCATAGGGCGGATCGGTATTCATGGGACGCCACACAACTCTTAGATTGATTGTCGCTTTCAGGCGTGTCATCCTGCGCCCCGGCACGAGCTCGTCCGGCGGTATAGTCGTATGTGCTTATACACATCAAAGCTAACAAATCTTTCTGCGGGCGGTCGTCACGACACACGTTCTTACG",
+          },
+          {
+            type: "dna",
+            defaultLayout: "circular",
+            title: "Some sequences",
+            sequence:
+              "TCCTCGCATAGGGCGGATCGGTATTCATGGGACGCCACACAACTCTTAGATTGATTGTCGCTTTCAGGCGTGTCATCCTGCGCCCCGGCACGAGCTCGTCCGGCGGTATAGTCGTATGTGCTTATACACATCAAAGCTAACAAATCTTTCTGCGGGCGGTCGTCACGACACACGTTCTTACG",
+          },
+
+        ]}
+      />
     </section>
   );
 }
